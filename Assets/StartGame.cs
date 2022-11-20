@@ -14,14 +14,12 @@ public class StartGame : MonoBehaviour
  public void Update()
  {
   Username = InsertedName.GetComponent<TMP_InputField>().text;
-  
  }
 
  public void Start()
  {
   PlayerPrefs.SetString("username", Username);
-  //SceneManager.LoadScene("Level1");
-  
-
+  // SceneManager.LoadScene("Level1");
  }
+ 
 }
