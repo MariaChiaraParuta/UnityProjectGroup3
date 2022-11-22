@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/InsertName.unity
     guid: c69c33a273e1d934f93b5422227adece
   - enabled: 1
+    path: Assets/Scenes/SantaIntro.unity
+    guid: 31fbcb51fb865a44680f04a8fc8d7422
+  - enabled: 1
+    path: Assets/Scenes/ExplainLevel1.unity
+    guid: 537bd0d3693acb44fbd9461620a4e8f0
+  - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 4b4af6b1ec5913f448b84b2567797908
   m_configObjects: {}

@@ -19,7 +19,12 @@ public class StartGame : MonoBehaviour
  public void Start()
  {
   PlayerPrefs.SetString("username", Username);
-  // SceneManager.LoadScene("Level1");
+  gameObject.GetComponent<Button>().onClick.AddListener(LoadScene);
+ }
+
+ private void LoadScene()
+ {
+  SceneManager.LoadScene("ExplainLevel1");
  }
  
 }
