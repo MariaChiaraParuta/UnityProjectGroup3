@@ -273,7 +273,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &154851981
 GameObject:
@@ -803,6 +803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1073608733}
   - component: {fileID: 1073608732}
+  - component: {fileID: 1073608734}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -827,9 +828,11 @@ MonoBehaviour:
   - {fileID: 154851981}
   - {fileID: 1854696161}
   - {fileID: 726148274}
-  startTimeBtwnSpawn: 3
+  delta: {x: -2, y: -3, z: 0}
+  startTimeBtwnSpawn: 2
   timeFromSpawn: 0
-  Sleigh: {fileID: 2029253697}
+  Parent: {fileID: 0}
+  InstantiatedGift: {fileID: 0}
 --- !u!4 &1073608733
 Transform:
   m_ObjectHideFlags: 0
@@ -837,14 +840,32 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073608731}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1073608734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073608731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99255bdff7b99114eb8e18ddb427964b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Positions:
+  - {fileID: 1948774390}
+  - {fileID: 710256765}
+  - {fileID: 1686661552}
+  - {fileID: 598929941}
+  objectSpeed: 5
 --- !u!1 &1092309004
 GameObject:
   m_ObjectHideFlags: 0
