@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class timerscript : MonoBehaviour
+public class Timerscript : MonoBehaviour
 {
   public float count = 10.0f;
   // public int seconds;
@@ -30,7 +30,7 @@ public class timerscript : MonoBehaviour
     if (count >= 0 && drop == false)
     {
       count -= Time.deltaTime;
-      counttext.text = count.ToString();
+      counttext.text = count.ToString("0");
     }
     else if(drop == true && count >= 0)
     {
