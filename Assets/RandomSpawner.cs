@@ -5,6 +5,7 @@ using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using UnityEngine.SceneManagement;
 
 public class RandomSpawner : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class RandomSpawner : MonoBehaviour
     public Vector3 delta;
     public float startTimeBtwnSpawn;
     public float timeFromSpawn;
+    public int instantiationnumber;
 
     //-->Parent.transform.position+delta
     public GameObject Parent;
@@ -23,11 +25,17 @@ public class RandomSpawner : MonoBehaviour
     {
 
         timeFromSpawn = startTimeBtwnSpawn;
+        instantiationnumber = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (instantiationnumber > 10)
+        {
+            SceneManager.LoadScene("ScoreLevel1"); // dopo 10 oggetti finisce il livello
+        }
+        
         if (timeFromSpawn <= 0)
         {
             Destroy(InstantiatedGift);
@@ -37,6 +45,7 @@ public class RandomSpawner : MonoBehaviour
             InstantiatedGift = Instantiate(gifts[rand], Parent.transform.position + delta, Quaternion.identity);
             InstantiatedGift.transform.parent = Parent.transform;
             timeFromSpawn = startTimeBtwnSpawn;
+            instantiationnumber += 1;
         }
         else
         {

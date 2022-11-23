@@ -4,31 +4,26 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class startlevel1 : MonoBehaviour
-{
-    public float secs;
-    
-    // non va, voglio far apparire il bottone solo quando la renna ha finito di parlare
-    
-    void Start()
+{ 
+    public float counttime;
+    public void Start ()
     {
-        // gameObject.SetActive(false);
-       // secs = 0;
+        counttime = 0.0f;
+    }
+    
+    public void Update()
+    {
+        // il bottone è attivo solo quando babbo natale finisce di parlare
+        counttime += Time.deltaTime;
+        if(counttime> 30.0f)
+        {
+            gameObject.GetComponent<Button>().onClick.AddListener(LoadScene);
+        }
     }
 
-    
-    void Update()
+    private void LoadScene()
     {
-        // secs += Time.deltaTime;
-        // if( secs > 53.0f)
-        // {
-           // gameObject.SetActive(true);
-            // gameObject.GetComponent<Button>().onClick.AddListener(LoadLevel1);
-        
+       SceneManager.LoadScene("Level1");
     }
-
-    // private void LoadLevel1()
-    // {
-       // SceneManager.LoadScene("Level1");
-    // }
     
 }
