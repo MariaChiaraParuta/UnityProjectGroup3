@@ -23,7 +23,7 @@ public class RandomSpawner : MonoBehaviour
 
     private void Awake()
     {
-        timeFromSpawn = 0;
+        timeFromSpawn = 4;
         instantiationnumber = 0;
     }
 
@@ -32,7 +32,7 @@ public class RandomSpawner : MonoBehaviour
     {
         if (instantiationnumber > 10)
         {
-            SceneManager.LoadScene("ScoreLevel2"); // dopo 10 oggetti finisce il livello
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1); // dopo 10 oggetti finisce il livello
         }
         
         if (timeFromSpawn <= 0)

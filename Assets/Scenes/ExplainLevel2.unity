@@ -636,8 +636,8 @@ SpriteRenderer:
   m_SortingLayerID: -343993249
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 8165efe157f398a4a8b901ccbfa2c349, type: 3}
-  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 9b2a1d4febef30349857db787823f41e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1212,7 +1212,7 @@ SpriteRenderer:
   m_SortingLayerID: -343993249
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: a2085c47f9c93c542839856d5bef3f0d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 990ebdf430288344f84d9363b0c4006a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1528,10 +1528,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _textMeshPro: {fileID: 1213560317}
   stringArray:
-  - Work in progress...
-  - Il regalo e le casette vanno colorate
-  - Non avevo tempo
-  - p.s. sono marco
+  - Now the game becomes harder.
+  - 'In this level you have to match the color regardless the shape of the gift '
+  - For example, in this case you shaould drop the red box on the second house to
+    earn the point
+  - Have fun!
   timeBtwnChars: 0.04
   timeBtwnWords: 1.5
 --- !u!114 &1213560317
@@ -2277,7 +2278,7 @@ SpriteRenderer:
   m_SortingLayerID: -343993249
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: b15d4f1baa4df1f44a35c7e834590887, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 12f82ec7cab6b5747b43aa91c226491c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2445,7 +2446,7 @@ SpriteRenderer:
   m_SortingLayerID: -343993249
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: acb29cfa55f8fd443a33818ab9fffcb5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 495becf07ac133d40880b32497cc9ac2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
