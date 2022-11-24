@@ -1530,7 +1530,7 @@ MonoBehaviour:
   stringArray:
   - Now the game becomes harder.
   - 'In this level you have to match the color regardless the shape of the gift '
-  - For example, in this case you shaould drop the red box on the second house to
+  - For example, in this case you should drop the red box on the second house to
     earn the point
   - Have fun!
   timeBtwnChars: 0.04
