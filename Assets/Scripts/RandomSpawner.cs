@@ -11,7 +11,7 @@ public class RandomSpawner : MonoBehaviour
 {
     public GameObject[] gifts;
     public Vector3 delta;
-    public float startTimeBtwnSpawn;
+    public float TimeBetweenSpawn;
     public float timeFromSpawn;
     public int instantiationnumber;
 
@@ -24,7 +24,7 @@ public class RandomSpawner : MonoBehaviour
     private void Awake()
     {
 
-        timeFromSpawn = startTimeBtwnSpawn;
+        timeFromSpawn = TimeBetweenSpawn;
         instantiationnumber = 0;
     }
 
@@ -38,13 +38,16 @@ public class RandomSpawner : MonoBehaviour
         
         if (timeFromSpawn <= 0)
         {
-            Destroy(InstantiatedGift);
+            if (instantiationnumber > 0)
+            {
+                Destroy(InstantiatedGift);
+            }
 
-            int rand = Random.Range(0, gifts.Length);
+            int rand = Random.Range(0, 15);
             Parent = GameObject.Find("Sleigh");
             InstantiatedGift = Instantiate(gifts[rand], Parent.transform.position + delta, Quaternion.identity);
             InstantiatedGift.transform.parent = Parent.transform;
-            timeFromSpawn = startTimeBtwnSpawn;
+            timeFromSpawn = TimeBetweenSpawn;
             instantiationnumber += 1;
         }
         else
