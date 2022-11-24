@@ -33,7 +33,7 @@ public class RandomSpawner : MonoBehaviour
     {
         if (instantiationnumber > 10)
         {
-            SceneManager.LoadScene("ScoreLevel1"); // dopo 10 oggetti finisce il livello
+            SceneManager.LoadScene("ScoreLevel2"); // dopo 10 oggetti finisce il livello
         }
         
         if (timeFromSpawn <= 0)
