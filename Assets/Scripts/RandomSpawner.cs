@@ -55,7 +55,7 @@ public class RandomSpawner : MonoBehaviour
             timeFromSpawn -= Time.deltaTime;
         }
 
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow) && instantiationnumber>0)
         {
             InstantiatedGift.transform.parent = null;
             InstantiatedGift.GetComponent<Rigidbody2D>().gravityScale = 1;
