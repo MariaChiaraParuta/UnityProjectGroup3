@@ -14,7 +14,7 @@ public class RandomSpawner : MonoBehaviour
     public float TimeBetweenSpawn;
     public float timeFromSpawn;
     public int instantiationnumber;
-
+    private bool flag_down_arrow=false;
     //-->Parent.transform.position+delta
     public GameObject Parent;
     public GameObject InstantiatedGift;
@@ -23,8 +23,7 @@ public class RandomSpawner : MonoBehaviour
 
     private void Awake()
     {
-
-        timeFromSpawn = TimeBetweenSpawn;
+        timeFromSpawn = 0;
         instantiationnumber = 0;
     }
 
@@ -43,23 +42,25 @@ public class RandomSpawner : MonoBehaviour
                 Destroy(InstantiatedGift);
             }
 
-            int rand = Random.Range(0, 15);
+            int rand = Random.Range(0, gifts.Length);
             Parent = GameObject.Find("Sleigh");
             InstantiatedGift = Instantiate(gifts[rand], Parent.transform.position + delta, Quaternion.identity);
             InstantiatedGift.transform.parent = Parent.transform;
             timeFromSpawn = TimeBetweenSpawn;
             instantiationnumber += 1;
+            flag_down_arrow = false;
         }
         else
         {
             timeFromSpawn -= Time.deltaTime;
         }
 
-        if (Input.GetKey(KeyCode.DownArrow) && instantiationnumber>0)
+        if (Input.GetKey(KeyCode.DownArrow) && instantiationnumber>0 && flag_down_arrow==false)
         {
             InstantiatedGift.transform.parent = null;
             InstantiatedGift.GetComponent<Rigidbody2D>().gravityScale = 1;
             InstantiatedGift.GetComponent<BoxCollider2D>();
+            flag_down_arrow = true;
         }
     }
 }

@@ -1169,8 +1169,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340344065}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.5, y: -0.6, z: -0.198}
-  m_LocalScale: {x: 0.9330453, y: 0.5205944, z: 0.88503015}
+  m_LocalPosition: {x: -17.5, y: -0.64, z: -0.198}
+  m_LocalScale: {x: 0.9330453, y: 0.43462014, z: 0.88503015}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1497713938}
@@ -2050,7 +2050,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -730.1, y: 473.2}
+  m_AnchoredPosition: {x: -724.8, y: 461.4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &620627297
@@ -3204,7 +3204,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 313, y: 1006}
+  m_AnchoredPosition: {x: 313, y: 991.6}
   m_SizeDelta: {x: 411.4633, y: 131.218}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1254485822
@@ -4060,8 +4060,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591381898}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.3032684, y: -0.9318218, z: -0.19800602}
-  m_LocalScale: {x: 0.36205816, y: 0.34238836, z: 0.33448127}
+  m_LocalPosition: {x: -3.19, y: -0.801, z: -0.19800602}
+  m_LocalScale: {x: 0.31535265, y: 0.29822025, z: 0.29133317}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1497713938}
@@ -4774,8 +4774,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 943, y: 422}
-  m_SizeDelta: {x: 246.16, y: 84.3004}
+  m_AnchoredPosition: {x: 878.5, y: 437.8}
+  m_SizeDelta: {x: 130.5506, y: 127.2486}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1903787331
 MonoBehaviour:
@@ -4824,14 +4824,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 150
-  m_fontSizeBase: 150
+  m_fontSize: 130
+  m_fontSizeBase: 130
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -4860,7 +4860,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 164.7207, w: 0}
+  m_margin: {x: 0, y: 0, z: -1.8969727, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

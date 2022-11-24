@@ -37,18 +37,18 @@ public class timerscript : MonoBehaviour
     if (count >= 0 && drop == false && isspawn == true)
     {
       count -= Time.deltaTime;
-      counttext.text = "Time: " + count.ToString("0");
+      counttext.text = "" + count.ToString("0");
     }
     else if(drop == true && count >= 0)
     {
       count = 5.2f;
-      counttext.text = "Time: " + count.ToString("0");
+      counttext.text = "" + count.ToString("0");
       isspawn = false;
     }
     else if (count <= 0)
     {
       count = 5;
-      counttext.text = "Time: " + count.ToString("0");
+      counttext.text = "" + count.ToString("0");
       isspawn = false;
     }
   }
