@@ -1960,10 +1960,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -3912,19 +3912,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gifts:
-  - {fileID: 517596552}
   - {fileID: 1143115226}
   - {fileID: 1084056889}
   - {fileID: 1632521020}
-  - {fileID: 367651079}
   - {fileID: 270697259}
   - {fileID: 141897980}
   - {fileID: 302832629}
   - {fileID: 1937688094}
   - {fileID: 707153204}
   - {fileID: 305207874}
-  - {fileID: 1477910660}
-  - {fileID: 759072737}
   - {fileID: 1367157322}
   - {fileID: 1858372873}
   - {fileID: 422415916}

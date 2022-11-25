@@ -15,7 +15,7 @@ public class startlevel1 : MonoBehaviour
     {
         // il bottone è attivo solo quando babbo natale finisce di parlare
         counttime += Time.deltaTime;
-        if(counttime> 30.0f)
+        if(counttime> 25.0f)
         {
             gameObject.GetComponent<Button>().onClick.AddListener(LoadScene);
         }
