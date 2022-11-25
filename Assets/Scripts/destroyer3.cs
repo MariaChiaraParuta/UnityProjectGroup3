@@ -6,7 +6,7 @@ public class destroyer3 : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D col)
     {
-        //LIVELLO2: associare il COLORE
+        //LIVELLO3: associare la FORMA
         if (col.gameObject.name == "House1") //forma: RETTANGOLO
         {
             if ((gameObject.name == "Giftrect-blue(Clone)")||
