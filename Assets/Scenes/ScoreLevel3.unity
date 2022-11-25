@@ -810,7 +810,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 786765502}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bea15a954d8fbe44281de749ef203bd2, type: 3}
+  m_Script: {fileID: 11500000, guid: d2492a4fee3df41408aab04007987529, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1067517996
@@ -890,8 +890,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067517996}
   m_LocalRotation: {x: 0, y: 0.9848078, z: -0, w: -0.17364809}
-  m_LocalPosition: {x: 1.226, y: 1.77, z: -0.3806}
-  m_LocalScale: {x: 5.6743317, y: 2.9368463, z: 1}
+  m_LocalPosition: {x: 1.226, y: 1.0814, z: -0.3806}
+  m_LocalScale: {x: 5.6743317, y: 3.4748764, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1057,9 +1057,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Next Level
-
-'
+  m_text: End Game
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b3e8cb9abb376e946b0ba052d8633e2c, type: 2}
   m_sharedMaterial: {fileID: -3094712541410931357, guid: b3e8cb9abb376e946b0ba052d8633e2c, type: 2}

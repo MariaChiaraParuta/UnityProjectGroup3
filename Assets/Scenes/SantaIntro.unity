@@ -800,7 +800,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 71, y: 165}
+  m_AnchoredPosition: {x: 78, y: 265}
   m_SizeDelta: {x: 700.14, y: 373.3647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1365236897
@@ -817,7 +817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _textMeshPro: {fileID: 1365236898}
   stringArray:
-  - Nice to met you!!
+  - Nice to meet you!!
   - I have to deliver a lot of gifts tonight, but I'm a bit confused with all these
     colors and shapes.
   - Follow Rudolf's instructions to make everyone happy with the right gift.
@@ -846,8 +846,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b3e8cb9abb376e946b0ba052d8633e2c, type: 2}
-  m_sharedMaterial: {fileID: -3094712541410931357, guid: b3e8cb9abb376e946b0ba052d8633e2c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c2e103abe30c36249a0dfbac2700b8f6, type: 2}
+  m_sharedMaterial: {fileID: 2333523337242724298, guid: c2e103abe30c36249a0dfbac2700b8f6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -871,15 +871,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 65
-  m_fontSizeBase: 65
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
