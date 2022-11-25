@@ -28,7 +28,21 @@ public class StartGame : MonoBehaviour
  
  private void LoadScene()
  {
-  SceneManager.LoadScene("SantaIntro");
+  
+    if (SliderValue.level == 1)
+    {
+     SceneManager.LoadScene("ExplainLevel1");
+
+    }
+    else if (SliderValue.level == 2)
+    {
+     SceneManager.LoadScene("ExplainLevel2");
+    }
+    else if (SliderValue.level == 3)
+    {
+     SceneManager.LoadScene("ExplainLevel1HARD");
+    }
+
  }
  
 }

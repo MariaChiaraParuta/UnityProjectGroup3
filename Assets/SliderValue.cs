@@ -7,6 +7,8 @@ public class SliderValue : MonoBehaviour
 {
     [SerializeField] private Slider _slider;
     [SerializeField] private TextMeshProUGUI _sliderText;
+
+    public static int level;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,10 +17,12 @@ public class SliderValue : MonoBehaviour
             if (v == 1)
             {
                 _sliderText.text = "Simple";
+                level = 1;
             }
             else if (v == 2)
             {
                 _sliderText.text = "Medium";
+                level = 2;
             }
             else if(v==3)
             {
@@ -27,6 +31,7 @@ public class SliderValue : MonoBehaviour
             else if (v == 0)
             {
                 _sliderText.text = " ";
+                level = 3;
             }
         });
     }
