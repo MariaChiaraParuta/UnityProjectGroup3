@@ -27,14 +27,6 @@ public class loadexplainlevel1 : MonoBehaviour
     }
     private void LoadScene()
     {
-        if (SliderValue.level == 1)
-        {
-            SceneManager.LoadScene("ExplainLevel1");
-
-        }
-        else if (SliderValue.level == 2)
-        {
-            SceneManager.LoadScene("ExplainLevel2");
-        }
+        SceneManager.LoadScene("InsertName");
     }
 }

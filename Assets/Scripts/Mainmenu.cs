@@ -7,7 +7,7 @@ public class Mainmenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("InsertName");
+        SceneManager.LoadScene("SantaIntro");
     }
 
     public void QuitGame()
