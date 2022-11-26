@@ -2460,7 +2460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _textMeshPro: {fileID: 1875154626}
   stringArray:
-  - Hi! I'm Santa Claus! What's your name? How old are you?
+  - What's your name? How old are you?
   - Choose the difficulty of the game.
   timeBtwnChars: 0.1
   timeBtwnWords: 1

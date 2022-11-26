@@ -817,9 +817,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _textMeshPro: {fileID: 1365236898}
   stringArray:
-  - Nice to meet you!!
+  - Hi, I'm Santa Claus. Nice to meet you!!
   - I have to deliver a lot of gifts tonight, but I'm a bit confused with all the
-    colors and shapes.
+    different colors and shapes.
   - Follow Rudolf's instructions to make everyone happy with the right gift.
   - ' I count on you !!!'
   timeBtwnChars: 0.04
@@ -959,8 +959,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 513, y: -362.94}
-  m_SizeDelta: {x: 600, y: 479.817}
+  m_AnchoredPosition: {x: 457, y: -365}
+  m_SizeDelta: {x: 753, y: 523}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1597868481
 MonoBehaviour:

@@ -36,11 +36,11 @@ public class StartGame : MonoBehaviour
     }
     else if (SliderValue.level == 2)
     {
-     SceneManager.LoadScene("ExplainLevel2");
+     // SceneManager.LoadScene("ExplainLevel2");
     }
     else if (SliderValue.level == 3)
     {
-     SceneManager.LoadScene("ExplainLevel1HARD");
+     // SceneManager.LoadScene("ExplainLevel1HARD");
     }
 
  }

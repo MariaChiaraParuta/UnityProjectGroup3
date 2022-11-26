@@ -13,9 +13,12 @@ public class timerscript : MonoBehaviour
   private bool drop;
   private bool isspawn;
 
+  public static float secNeeded;
+
   void Start()
   {
     counttext = GetComponent<TextMeshProUGUI>();
+    secNeeded = 0.0f;
   }
 
   void Update()
@@ -39,6 +42,7 @@ public class timerscript : MonoBehaviour
 
       if (count >= 0 && drop == false && isspawn == true)
       {
+        secNeeded += Time.deltaTime;
         count -= Time.deltaTime;
         counttext.text = "" + count.ToString("0");
       }
