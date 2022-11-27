@@ -31,7 +31,7 @@ public class StartGame : MonoBehaviour
   
     if (SliderValue.level == 1)
     {
-     SceneManager.LoadScene("ExplainLevel1");
+     SceneManager.LoadScene("ExplainLevel0");
 
     }
     else if (SliderValue.level == 2)

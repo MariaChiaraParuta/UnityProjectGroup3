@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-public class startlevel1 : MonoBehaviour
+public class startlevel0 : MonoBehaviour
 { 
     public float counttime;
     public void Start ()
@@ -23,7 +23,7 @@ public class startlevel1 : MonoBehaviour
 
     private void LoadScene()
     {
-       SceneManager.LoadScene("Level1");
+       SceneManager.LoadScene("Level0");
     }
     
 }

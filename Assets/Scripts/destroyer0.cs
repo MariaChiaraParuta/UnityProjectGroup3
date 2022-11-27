@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class destroyer : MonoBehaviour
+public class destroyer0 : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D col)
     {
