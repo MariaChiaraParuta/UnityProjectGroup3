@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class timerscript2 : MonoBehaviour
 {
-  public float count = 5.0f;
+  private float count;
   
   // public int seconds;
   public TextMeshProUGUI counttext;
@@ -18,9 +18,20 @@ public class timerscript2 : MonoBehaviour
   void Start()
   {
     counttext = GetComponent<TextMeshProUGUI>();
-    
-    //counttext = GetComponent<TMP_FontAsset>();
-    //counttext.font = myFont;
+    if (SliderValue.level == 1) //livello facile
+    {
+      count = 7.0f;
+    }
+    else if (SliderValue.level == 2)//livello medio
+    {
+      count = 5.0f;
+    }
+    else if(SliderValue.level == 3)//livello difficile
+    {
+      count = 3.0f;
+    }
+
+
   }
 
   void Update()
@@ -64,13 +75,35 @@ public class timerscript2 : MonoBehaviour
       }
       else if (drop == true && count >= 0)
       {
-        count = 5.0f + 0.2f;
+        if (SliderValue.level == 1) //livello facile
+        {
+          count = 7.0f+0.2f;
+        }
+        else if (SliderValue.level == 2)//livello medio
+        {
+          count = 5.0f+0.2f;
+        }
+        else if(SliderValue.level == 3)//livello difficile
+        {
+          count = 3.0f+0.2f;
+        }
         counttext.text = "" + count.ToString("0");
         isspawn = false;
       }
       else if (count <= 0)
       {
-        count = 5.0f;
+        if (SliderValue.level == 1) //livello facile
+        {
+          count = 7.0f;
+        }
+        else if (SliderValue.level == 2)//livello medio
+        {
+          count = 5.0f;
+        }
+        else if(SliderValue.level == 3)//livello difficile
+        {
+          count = 3.0f;
+        }
         counttext.text = "" + count.ToString("0");
         isspawn = false;
       }

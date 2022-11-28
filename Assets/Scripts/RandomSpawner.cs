@@ -25,6 +25,18 @@ public class RandomSpawner : MonoBehaviour
     {
         timeFromSpawn = 4;
         instantiationnumber = 0;
+        if (SliderValue.level == 1) //livello facile
+        {
+            TimeBetweenSpawn = 7.0f;
+        }
+        else if (SliderValue.level == 2)//livello medio
+        {
+            TimeBetweenSpawn = 5.0f;
+        }
+        else if(SliderValue.level == 3)//livello difficile
+        {
+            TimeBetweenSpawn = 3.0f;
+        }
     }
 
     // Update is called once per frame
