@@ -12,6 +12,7 @@ public class destroyer0 : MonoBehaviour
             if (gameObject.name == "Giftrect(Clone)")
             {
                 TextScript.score += 1;
+                ShowFinalScore.finalscore += 1; 
             }
         }
         
@@ -20,6 +21,7 @@ public class destroyer0 : MonoBehaviour
             if (gameObject.name == "Giftcard(Clone)")
             {
                 TextScript.score += 1;
+                ShowFinalScore.finalscore += 1; 
             }
         }
         
@@ -28,6 +30,7 @@ public class destroyer0 : MonoBehaviour
             if (gameObject.name == "Giftbox(Clone)")
             {
                 TextScript.score += 1;
+                ShowFinalScore.finalscore += 1; 
             }
         }
         
@@ -36,10 +39,12 @@ public class destroyer0 : MonoBehaviour
             if (gameObject.name == "Giftsock(Clone)")
             {
                 TextScript.score += 1;
+                ShowFinalScore.finalscore += 1; 
             }
         }
         
         Destroy(gameObject);
         destruction0 = true;
+        
     }
 }

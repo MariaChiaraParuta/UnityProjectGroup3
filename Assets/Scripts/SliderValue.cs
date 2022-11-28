@@ -27,11 +27,12 @@ public class SliderValue : MonoBehaviour
             else if(v==3)
             {
                 _sliderText.text = "Difficult";
+                level = 3;
             }
             else if (v == 0)
             {
-                _sliderText.text = " ";
-                level = 3;
+                _sliderText.text = "...";
+                
             }
         });
     }

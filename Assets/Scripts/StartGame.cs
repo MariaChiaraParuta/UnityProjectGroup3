@@ -15,6 +15,7 @@ public class StartGame : MonoBehaviour
  public void Start()
  {
   gameObject.GetComponent<Button>().onClick.AddListener(LoadScene);
+  ShowFinalScore.finalscore = 0;
  }
 
  public void Update()
@@ -28,21 +29,7 @@ public class StartGame : MonoBehaviour
  
  private void LoadScene()
  {
-  
-    if (SliderValue.level == 1)
-    {
-     SceneManager.LoadScene("ExplainLevel0");
-
-    }
-    else if (SliderValue.level == 2)
-    {
-     // SceneManager.LoadScene("ExplainLevel2");
-    }
-    else if (SliderValue.level == 3)
-    {
-     // SceneManager.LoadScene("ExplainLevel1HARD");
-    }
-
+  SceneManager.LoadScene("ExplainLevel0");
  }
  
 }

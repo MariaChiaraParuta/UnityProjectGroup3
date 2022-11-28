@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class timerscript : MonoBehaviour
 {
-  public float count;
+  private float count;
   // public int seconds;
   public TextMeshProUGUI counttext;
 
@@ -21,15 +21,15 @@ public class timerscript : MonoBehaviour
     secNeeded = 0.0f;
     if (SliderValue.level == 1) //livello facile
     {
-      count = 7.0f;
+      count = 8.0f;
     }
     else if (SliderValue.level == 2)//livello medio
     {
-      count = 5.0f;
+      count = 6.0f;
     }
     else if(SliderValue.level == 3)//livello difficile
     {
-      count = 3.0f;
+      count = 4.0f;
     }
 
 
@@ -42,9 +42,17 @@ public class timerscript : MonoBehaviour
       drop = false;
       isspawn = false;
 
-      if (GameObject.Find("Giftcard(Clone)") || GameObject.Find("Giftbox(Clone)")
-                                             || GameObject.Find("Giftrect(Clone)") ||
-                                             GameObject.Find("Giftsock(Clone)"))
+      if (//regali neutri
+            GameObject.Find("Giftcard(Clone)") || GameObject.Find("Giftbox(Clone)") || GameObject.Find("Giftrect(Clone)") || GameObject.Find("Giftsock(Clone)") 
+          //regali blue
+            ||GameObject.Find("Gifthouse-blue(Clone)") || GameObject.Find("Giftbox-blue(Clone)") || GameObject.Find("Giftrect-blue(Clone)") || GameObject.Find("Giftsock-blue(Clone)")
+         //regali rossi
+            || GameObject.Find("Gifthouse-red(Clone)") || GameObject.Find("Giftbox-red(Clone)") || GameObject.Find("Giftrect-red(Clone)") || GameObject.Find("Giftsock-red(Clone)")
+         //regali gialli
+            || GameObject.Find("Gifthouse-yellow(Clone)") || GameObject.Find("Giftbox-yellow(Clone)") || GameObject.Find("Giftrect-yellow(Clone)") || GameObject.Find("Giftsock-yellow(Clone)")
+         //regali verdi
+            || GameObject.Find("Gifthouse-green(Clone)") || GameObject.Find("Giftbox-green(Clone)") || GameObject.Find("Giftrect-green(Clone)") || GameObject.Find("Giftsock-green(Clone)")
+         )
       {
         isspawn = true;
       }
@@ -64,15 +72,15 @@ public class timerscript : MonoBehaviour
       {
         if (SliderValue.level == 1) //livello facile
         {
-          count = 7.0f+0.2f;
+          count = 8.0f+0.2f;
         }
         else if (SliderValue.level == 2)//livello medio
         {
-          count = 5.0f+0.2f;
+          count = 6.0f+0.2f;
         }
         else if(SliderValue.level == 3)//livello difficile
         {
-          count = 3.0f+0.2f;
+          count = 4.0f+0.2f;
         }
 
         counttext.text = "" + count.ToString("0");
@@ -82,15 +90,15 @@ public class timerscript : MonoBehaviour
       {
         if (SliderValue.level == 1) //livello facile
         {
-          count = 7.0f;
+          count = 8.0f;
         }
         else if (SliderValue.level == 2)//livello medio
         {
-          count = 5.0f;
+          count = 6.0f;
         }
         else if(SliderValue.level == 3)//livello difficile
         {
-          count = 3.0f;
+          count = 4.0f;
         }
         counttext.text = "" + count.ToString("0");
         isspawn = false;

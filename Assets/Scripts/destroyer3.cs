@@ -16,6 +16,7 @@ public class destroyer3 : MonoBehaviour
                 (gameObject.name == "Giftrect-green(Clone)"))
             {
                 TextScript.score += 1;
+                ShowFinalScore.finalscore += 1; 
             }
         }
         
@@ -26,6 +27,7 @@ public class destroyer3 : MonoBehaviour
                 (gameObject.name == "Gifthouse-yellow(Clone)")||
                 (gameObject.name == "Gifthouse-green(Clone)"))            {
                 TextScript.score += 1;
+                ShowFinalScore.finalscore += 1; 
             }
         }
         
@@ -37,6 +39,7 @@ public class destroyer3 : MonoBehaviour
                (gameObject.name == "Giftbox-green(Clone)"))
             {
                 TextScript.score += 1;
+                ShowFinalScore.finalscore += 1; 
             }
         }
         
@@ -48,6 +51,7 @@ public class destroyer3 : MonoBehaviour
                 (gameObject.name == "Giftsock-green(Clone)"))
             {
                 TextScript.score += 1;
+                ShowFinalScore.finalscore += 1; 
             }
         }
         

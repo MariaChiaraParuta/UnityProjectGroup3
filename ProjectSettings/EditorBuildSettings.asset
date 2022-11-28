@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScoreLevel3.unity
     guid: 2f37a455f82cc2a46892e9f48ad9e9fe
+  - enabled: 1
+    path: Assets/Scenes/FinalScore.unity
+    guid: 54beb7fc551acc64fb2a41a5b13ea7cc
   m_configObjects: {}

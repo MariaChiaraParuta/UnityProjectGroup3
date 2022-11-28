@@ -14,21 +14,22 @@ public class timerscript2 : MonoBehaviour
   //public TMP_FontAsset myFont;
   private bool drop;
   private bool isspawn;
-
+  public static float secNeeded;
   void Start()
   {
     counttext = GetComponent<TextMeshProUGUI>();
+    secNeeded = 0.0f;
     if (SliderValue.level == 1) //livello facile
     {
-      count = 7.0f;
+      count = 8.0f;
     }
     else if (SliderValue.level == 2)//livello medio
     {
-      count = 5.0f;
+      count = 6.0f;
     }
     else if(SliderValue.level == 3)//livello difficile
     {
-      count = 3.0f;
+      count = 4.0f;
     }
 
 
@@ -70,6 +71,7 @@ public class timerscript2 : MonoBehaviour
 
       if (count >= 0 && drop == false && isspawn == true)
       {
+        secNeeded += Time.deltaTime;
         count -= Time.deltaTime;
         counttext.text = "" + count.ToString("0");
       }
@@ -77,15 +79,15 @@ public class timerscript2 : MonoBehaviour
       {
         if (SliderValue.level == 1) //livello facile
         {
-          count = 7.0f+0.2f;
+          count = 8.0f+0.2f;
         }
         else if (SliderValue.level == 2)//livello medio
         {
-          count = 5.0f+0.2f;
+          count = 6.0f+0.2f;
         }
         else if(SliderValue.level == 3)//livello difficile
         {
-          count = 3.0f+0.2f;
+          count = 4.0f+0.2f;
         }
         counttext.text = "" + count.ToString("0");
         isspawn = false;
@@ -94,15 +96,15 @@ public class timerscript2 : MonoBehaviour
       {
         if (SliderValue.level == 1) //livello facile
         {
-          count = 7.0f;
+          count = 8.0f;
         }
         else if (SliderValue.level == 2)//livello medio
         {
-          count = 5.0f;
+          count = 6.0f;
         }
         else if(SliderValue.level == 3)//livello difficile
         {
-          count = 3.0f;
+          count = 4.0f;
         }
         counttext.text = "" + count.ToString("0");
         isspawn = false;

@@ -27,15 +27,15 @@ public class RandomSpawner : MonoBehaviour
         instantiationnumber = 0;
         if (SliderValue.level == 1) //livello facile
         {
-            TimeBetweenSpawn = 7.0f;
+            TimeBetweenSpawn = 8.0f;
         }
         else if (SliderValue.level == 2)//livello medio
         {
-            TimeBetweenSpawn = 5.0f;
+            TimeBetweenSpawn = 6.0f;
         }
         else if(SliderValue.level == 3)//livello difficile
         {
-            TimeBetweenSpawn = 3.0f;
+            TimeBetweenSpawn = 4.0f;
         }
     }
 

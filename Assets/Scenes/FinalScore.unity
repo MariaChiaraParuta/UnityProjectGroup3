@@ -301,7 +301,6 @@ GameObject:
   m_Component:
   - component: {fileID: 412066271}
   - component: {fileID: 412066273}
-  - component: {fileID: 412066272}
   m_Layer: 0
   m_Name: stellapiena2
   m_TagString: Untagged
@@ -324,18 +323,6 @@ Transform:
   m_Father: {fileID: 755346383}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &412066272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 412066270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ecd2ab56d8b2bb438e9c46648b2cdb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &412066273
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -617,11 +604,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 447953739}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 245f8ac9f949c104a8e473ca2b9594e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 40aa093f6afb1ee4fb5e19c0d90c6f3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scorelevel: {fileID: 0}
+  finalscoretext: {fileID: 0}
   user: 
+  stella1: {fileID: 644397453}
+  stella2: {fileID: 412066270}
+  stella3: {fileID: 1015565716}
 --- !u!1 &475446354
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,7 +989,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 786765502}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bea15a954d8fbe44281de749ef203bd2, type: 3}
+  m_Script: {fileID: 11500000, guid: d2492a4fee3df41408aab04007987529, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &918333832
@@ -1096,7 +1086,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1015565717}
   - component: {fileID: 1015565719}
-  - component: {fileID: 1015565718}
   m_Layer: 0
   m_Name: stellapiena3
   m_TagString: Untagged
@@ -1119,18 +1108,6 @@ Transform:
   m_Father: {fileID: 755346383}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1015565718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1015565716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 250abd2d7bc0c05499bfb0544b59138e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1015565719
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1595,7 +1572,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: End Game
+  m_text: Close Game
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b3e8cb9abb376e946b0ba052d8633e2c, type: 2}
   m_sharedMaterial: {fileID: -3094712541410931357, guid: b3e8cb9abb376e946b0ba052d8633e2c, type: 2}
