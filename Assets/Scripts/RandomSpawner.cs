@@ -13,7 +13,7 @@ public class RandomSpawner : MonoBehaviour
     public Vector3 delta;
     public float TimeBetweenSpawn;
     public float timeFromSpawn;
-    public int instantiationnumber;
+    public static int instantiationnumber = 0;
     private bool flag_down_arrow=false;
     //-->Parent.transform.position+delta
     public GameObject Parent;
@@ -76,7 +76,6 @@ public class RandomSpawner : MonoBehaviour
             InstantiatedGift = Instantiate(gifts[rand], Parent.transform.position + delta, Quaternion.identity);
             InstantiatedGift.transform.parent = Parent.transform;
             timeFromSpawn = TimeBetweenSpawn;
-            
             instantiationnumber += 1;
             flag_down_arrow = false;
         }
