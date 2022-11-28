@@ -15,6 +15,8 @@ public class showscoretext : MonoBehaviour
     {
         scorelevel = GetComponent<TextMeshProUGUI>();
         user = PlayerPrefs.GetString("username");
+        ShowFinalScore.totalscore[ShowFinalScore.index] = TextScript.score;
+        ShowFinalScore.index += 1;
     }
 
     // Update is called once per frame

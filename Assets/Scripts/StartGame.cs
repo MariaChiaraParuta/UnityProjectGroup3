@@ -16,6 +16,11 @@ public class StartGame : MonoBehaviour
  {
   gameObject.GetComponent<Button>().onClick.AddListener(LoadScene);
   ShowFinalScore.finalscore = 0;
+  ShowFinalScore.index = 0;
+  ShowFinalScore.totalscore[0] = 0;
+  ShowFinalScore.totalscore[1] = 0;
+  ShowFinalScore.totalscore[2] = 0;
+  ShowFinalScore.totalscore[3] = 0;
  }
 
  public void Update()
