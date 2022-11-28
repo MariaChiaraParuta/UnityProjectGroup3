@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class destroyer3 : MonoBehaviour
 {
+    public static bool destruction3 = false;
     private void OnTriggerEnter2D(Collider2D col)
     {
         //LIVELLO3: associare la FORMA
@@ -51,5 +52,6 @@ public class destroyer3 : MonoBehaviour
         }
         
         Destroy(gameObject);
+        destruction3 = true; 
     }
 }

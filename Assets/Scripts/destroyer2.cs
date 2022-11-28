@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class destroyer2 : MonoBehaviour
 {
+    public static bool destruction2 = false;
     private void OnTriggerEnter2D(Collider2D col)
     {
         //LIVELLO2: associare il COLORE
@@ -52,5 +53,6 @@ public class destroyer2 : MonoBehaviour
         }
         
         Destroy(gameObject);
+        destruction2 = true; 
     }
 }

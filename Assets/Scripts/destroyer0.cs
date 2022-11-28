@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class destroyer0 : MonoBehaviour
 {
+    public static bool destruction0 = false;
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.name == "House1")
@@ -39,5 +40,6 @@ public class destroyer0 : MonoBehaviour
         }
         
         Destroy(gameObject);
+        destruction0 = true;
     }
 }
