@@ -10,12 +10,13 @@ public class StartTimer : MonoBehaviour
     private float timeLeft;
     public TextMeshProUGUI startText;
     public static int flag_start = 0;
+    public GameObject layerOpaco;
     
     // Start is called before the first frame update
     void Start()
     {
         startText = GetComponent<TextMeshProUGUI>();
-        timeLeft = 3.0f;
+        timeLeft = 3.4f;
     }
 
     // Update is called once per frame
@@ -29,6 +30,8 @@ public class StartTimer : MonoBehaviour
             //Thread.Sleep(1000);
             gameObject.SetActive(false);
             flag_start = 1;
+            layerOpaco.SetActive(false);
+
         }
     }
 }

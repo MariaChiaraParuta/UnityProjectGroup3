@@ -8,6 +8,7 @@ public class ShowFinalScore : MonoBehaviour
 {
     public TextMeshProUGUI finalscoretext;
     public string user;
+
     public static int finalscore;
     public GameObject stella1;
     public GameObject stella2;
