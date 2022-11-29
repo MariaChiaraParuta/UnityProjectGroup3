@@ -700,6 +700,7 @@ GameObject:
   m_Component:
   - component: {fileID: 708161918}
   - component: {fileID: 708161919}
+  - component: {fileID: 708161920}
   m_Layer: 0
   m_Name: Score1Santa
   m_TagString: Untagged
@@ -774,6 +775,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!111 &708161920
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708161917}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 984fb8918109a4a41b44e4212c76bac9, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 984fb8918109a4a41b44e4212c76bac9, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &755346381
 GameObject:
   m_ObjectHideFlags: 0

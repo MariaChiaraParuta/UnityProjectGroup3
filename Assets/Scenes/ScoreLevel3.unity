@@ -495,6 +495,7 @@ GameObject:
   m_Component:
   - component: {fileID: 447843528}
   - component: {fileID: 447843527}
+  - component: {fileID: 447843529}
   m_Layer: 0
   m_Name: Score1Santa
   m_TagString: Untagged
@@ -568,7 +569,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 755346383}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -10.07}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -21.296291}
+--- !u!111 &447843529
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447843526}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 984fb8918109a4a41b44e4212c76bac9, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 984fb8918109a4a41b44e4212c76bac9, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &447953739
 GameObject:
   m_ObjectHideFlags: 0

@@ -28,6 +28,7 @@ public class SleighMovement1 : MonoBehaviour
         if (transform.position == nextPos.position)
         {
             nextPosIndex++;
+            
         
 
          if (nextPosIndex == Positions.Length)
