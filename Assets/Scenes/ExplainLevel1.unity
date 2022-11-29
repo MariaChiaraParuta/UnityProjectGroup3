@@ -217,6 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 104715091}
   - component: {fileID: 104715092}
+  - component: {fileID: 104715093}
   m_Layer: 0
   m_Name: House3
   m_TagString: Untagged
@@ -291,6 +292,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!111 &104715093
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104715090}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 5b9af8f275050e248ac19a9bff056c03, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 5b9af8f275050e248ac19a9bff056c03, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &200293884
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,6 +639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 626367698}
   - component: {fileID: 626367697}
+  - component: {fileID: 626367699}
   m_Layer: 0
   m_Name: RudolfBubbleChat1
   m_TagString: Untagged
@@ -696,6 +714,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &626367699
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626367696}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: cb7b7e54778017f4eb45d54707f0a12d, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: cb7b7e54778017f4eb45d54707f0a12d, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &673201002
 GameObject:
   m_ObjectHideFlags: 0
@@ -1126,7 +1160,6 @@ GameObject:
   m_Component:
   - component: {fileID: 883191127}
   - component: {fileID: 883191128}
-  - component: {fileID: 883191129}
   m_Layer: 0
   m_Name: DownArrow2
   m_TagString: Untagged
@@ -1201,22 +1234,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!111 &883191129
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 883191126}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: e8c6ed85d505cfe4aa481fe9248cdd7f, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: e8c6ed85d505cfe4aa481fe9248cdd7f, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &894227723
 GameObject:
   m_ObjectHideFlags: 0
@@ -1605,7 +1622,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1022641611}
   - component: {fileID: 1022641612}
-  - component: {fileID: 1022641613}
   m_Layer: 0
   m_Name: LeftArrow2
   m_TagString: Untagged
@@ -1680,22 +1696,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!111 &1022641613
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1022641610}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 4da896c6df712ac4f9e3ea1c908855ca, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 4da896c6df712ac4f9e3ea1c908855ca, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &1049226409
 GameObject:
   m_ObjectHideFlags: 0
@@ -1741,7 +1741,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1347525773}
   - component: {fileID: 1347525774}
-  - component: {fileID: 1347525775}
   m_Layer: 0
   m_Name: RightArrow2
   m_TagString: Untagged
@@ -1816,22 +1815,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!111 &1347525775
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1347525772}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 9c5a2ecc9593dd64b98d3a6524108baa, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 9c5a2ecc9593dd64b98d3a6524108baa, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &1350059909
 GameObject:
   m_ObjectHideFlags: 0
@@ -2230,6 +2213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2006700400}
   - component: {fileID: 2006700401}
+  - component: {fileID: 2006700402}
   m_Layer: 0
   m_Name: GiftboxHouse
   m_TagString: Untagged
@@ -2304,6 +2288,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!111 &2006700402
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006700399}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 5b9af8f275050e248ac19a9bff056c03, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 5b9af8f275050e248ac19a9bff056c03, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &2009836668
 GameObject:
   m_ObjectHideFlags: 0

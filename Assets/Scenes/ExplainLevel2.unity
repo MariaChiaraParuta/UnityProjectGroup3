@@ -1149,6 +1149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 935464569}
   - component: {fileID: 935464570}
+  - component: {fileID: 935464571}
   m_Layer: 0
   m_Name: GreetingHouse
   m_TagString: Untagged
@@ -1223,6 +1224,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!111 &935464571
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935464568}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 5b9af8f275050e248ac19a9bff056c03, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 5b9af8f275050e248ac19a9bff056c03, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1090097777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1233,6 +1250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1090097778}
   - component: {fileID: 1090097779}
+  - component: {fileID: 1090097780}
   m_Layer: 0
   m_Name: House2
   m_TagString: Untagged
@@ -1307,6 +1325,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!111 &1090097780
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090097777}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 5b9af8f275050e248ac19a9bff056c03, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 5b9af8f275050e248ac19a9bff056c03, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1213560314
 GameObject:
   m_ObjectHideFlags: 0
@@ -1979,6 +2013,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1728635063}
   - component: {fileID: 1728635062}
+  - component: {fileID: 1728635064}
   m_Layer: 0
   m_Name: RudolfBubbleChat2
   m_TagString: Untagged
@@ -2053,6 +2088,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &1728635064
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728635061}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: cb7b7e54778017f4eb45d54707f0a12d, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: cb7b7e54778017f4eb45d54707f0a12d, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1731188548
 GameObject:
   m_ObjectHideFlags: 0

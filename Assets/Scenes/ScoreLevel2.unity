@@ -1714,6 +1714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2137917481}
   - component: {fileID: 2137917482}
+  - component: {fileID: 2137917483}
   m_Layer: 0
   m_Name: Score1Bubblechat
   m_TagString: Untagged
@@ -1788,3 +1789,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!111 &2137917483
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137917480}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 8132f92cd1963ec4281a1d90b784df80, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 8132f92cd1963ec4281a1d90b784df80, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
