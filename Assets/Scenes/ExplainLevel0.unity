@@ -168,6 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 207030917}
   - component: {fileID: 207030916}
+  - component: {fileID: 207030918}
   m_Layer: 0
   m_Name: DownArrow1
   m_TagString: Untagged
@@ -242,6 +243,22 @@ Transform:
   m_Father: {fileID: 279614245}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &207030918
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207030915}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: e8c6ed85d505cfe4aa481fe9248cdd7f, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: e8c6ed85d505cfe4aa481fe9248cdd7f, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &239734642
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,6 +1362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1142440757}
   - component: {fileID: 1142440756}
+  - component: {fileID: 1142440758}
   m_Layer: 0
   m_Name: LeftArrow1
   m_TagString: Untagged
@@ -1419,6 +1437,23 @@ Transform:
   m_Father: {fileID: 279614245}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &1142440758
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142440755}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 4da896c6df712ac4f9e3ea1c908855ca, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 4da896c6df712ac4f9e3ea1c908855ca, type: 2}
+  - {fileID: 7400000, guid: 9c5a2ecc9593dd64b98d3a6524108baa, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1308320116
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,6 +1734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1657983251}
   - component: {fileID: 1657983250}
+  - component: {fileID: 1657983252}
   m_Layer: 0
   m_Name: RightArrow1
   m_TagString: Untagged
@@ -1766,13 +1802,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657983249}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.10520589, y: 2.0456164, z: 0.10317935}
+  m_LocalPosition: {x: 0.10520589, y: 2.045616, z: 0.1031794}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 279614245}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &1657983252
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657983249}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 9c5a2ecc9593dd64b98d3a6524108baa, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 9c5a2ecc9593dd64b98d3a6524108baa, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1678601311
 GameObject:
   m_ObjectHideFlags: 0
