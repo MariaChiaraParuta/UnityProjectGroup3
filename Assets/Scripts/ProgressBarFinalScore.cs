@@ -23,10 +23,10 @@ public class ProgressBarFinalScore : MonoBehaviour
     void Update(){
     
     if(gameObject.name == "TimeCongruent") {
-        mask.fillAmount = FinalLevelScores.reactiontimecongruent;
+        mask.fillAmount = 1-FinalLevelScores.reactiontimecongruent;
     }
     else if (gameObject.name == "TimeIncongruent") {
-        mask.fillAmount = FinalLevelScores.reactiontimeincongruent;
+        mask.fillAmount = 1-FinalLevelScores.reactiontimeincongruent;
     }
     //  masklevel1.fillAmount = (FinalLevelScores.scorelevel1)/10.0f;
        //masklevel2.fillAmount = (FinalLevelScores.scorelevel2)/10.0f;
