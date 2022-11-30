@@ -32,7 +32,7 @@ public class SliderValue : MonoBehaviour
             else if (v == 0)
             {
                 _sliderText.text = "Slide...";
-                
+                level = 1;
             }
         });
     }
