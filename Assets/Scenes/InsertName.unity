@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 128585282}
   - component: {fileID: 128585281}
+  - component: {fileID: 128585283}
   m_Layer: 0
   m_Name: InsertNameBubblechat
   m_TagString: Untagged
@@ -207,6 +208,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 200, z: 0}
+--- !u!111 &128585283
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128585280}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 26ef2fc8d56ffea438e4fcc7f803c996, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 26ef2fc8d56ffea438e4fcc7f803c996, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &463583000
 GameObject:
   m_ObjectHideFlags: 0
@@ -2443,7 +2460,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -251, y: 287}
+  m_AnchoredPosition: {x: -251, y: 248}
   m_SizeDelta: {x: 309.2299, y: 230.2817}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1875154626
