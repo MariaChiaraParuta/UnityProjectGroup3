@@ -17,6 +17,6 @@ public class ReactionTime1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        reactiontime.text = 100 * (1-(int)FinalLevelScores.reactiontimeincongruent) + "%";
+        reactiontime.text = 100 * (1-(int)(FinalLevelScores.reactiontimeincongruent)) + "%";
     }
 }

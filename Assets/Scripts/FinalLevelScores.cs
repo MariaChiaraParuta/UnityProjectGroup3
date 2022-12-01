@@ -38,19 +38,20 @@ public class FinalLevelScores : MonoBehaviour
         {
             count = 4.0f;
         }
-        //reaction time for neutral level
+         
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+       //reaction time for neutral level
         reactiontimeneutral = timelevel0 / (count * 10.0f);
         //reaction time % over total time for congruent and incongruent levels, with weighted sum for level 2 and 3
         //to make level 3 count more (higher difficulty)
         reactiontimecongruent = timelevel1 / (count*10.0f); 
         reactiontimeincongruent = (timelevel2*0.4f + timelevel3*0.6f) / ( count * 10.0f);
         
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
         finalscore.text = "Level 0: " + scorelevel0 +" in "+timelevel0+" seconds\n"+
                                       "Level 1: " + scorelevel1+" in "+timelevel1+" seconds\n"+
                                       "Level 2: " + scorelevel2 +" in "+timelevel2+" seconds\n"+
