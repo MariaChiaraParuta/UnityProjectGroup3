@@ -14,7 +14,7 @@ public class ReactionTime1 : MonoBehaviour
     void Start()
     {
         reactiontime = GetComponent<TextMeshProUGUI>();
-        reactiontime.text = 100 + "%";
+        //reactiontime.text = 100 + "%";
         if (SliderValue.level == 1) //livello facile
         {
             count = 8.0f;
@@ -38,6 +38,7 @@ public class ReactionTime1 : MonoBehaviour
         //reaction time % over total time for congruent and incongruent levels, with weighted sum for level 2 and 3
         //to make level 3 count more (higher difficulty)
         reactiontimecongruent = FinalLevelScores.timelevel1 / (count*10.0f); 
-        reactiontime.text = 100 * (1-(reactiontimecongruent)) + "%";
+       
+        reactiontime.text = (int)(100 * (1-(reactiontimecongruent)))+ "%";
     }
 }
