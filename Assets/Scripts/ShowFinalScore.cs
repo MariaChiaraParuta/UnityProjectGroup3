@@ -30,18 +30,20 @@ public class ShowFinalScore : MonoBehaviour
     {   
         if (finalscore>=30)
         {
-            finalscoretext.text = "Amazing job! I wasn't gonna make it without your help!!" +
-                                  "\nYour final score is: " + finalscore;
+            finalscoretext.text = "Amazing job! I wasn't gonna make it without your help!!";
+                                  //"\nYour final score is: " + finalscore
+
             stella3.SetActive(true);
         }
         if (finalscore>18)
         {
-            finalscoretext.text = "Well done! You've been a good mate!!" + "\nYour final score is: " + finalscore;
+            finalscoretext.text = "Well done! You've been a good mate!!";
+                                  //"\nYour final score is: " + finalscore;
             stella2.SetActive(true);
         }
         else
         {
-            finalscoretext.text = "Don't give up, next time will be better!!" + "\nYour final score is: " + finalscore;
+            finalscoretext.text = "Don't give up, next time will be better!!"; //+ "\nYour final score is: " + finalscore;
 
         }
 
