@@ -2690,7 +2690,7 @@ MonoBehaviour:
   - If you drop the gift correctly and in time you will earn one point.
   - Focus and try to do your best!
   timeBtwnChars: 0.035
-  timeBtwnWords: 1.5
+  timeBtwnWords: 1.1
 --- !u!114 &2057960222
 MonoBehaviour:
   m_ObjectHideFlags: 0
