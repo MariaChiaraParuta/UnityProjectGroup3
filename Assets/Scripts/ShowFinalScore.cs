@@ -28,18 +28,18 @@ public class ShowFinalScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
-        if (finalscore>=30)
-        {
-            finalscoretext.text = "Amazing job! I wasn't gonna make it without your help!!";
-                                  //"\nYour final score is: " + finalscore
-
-            stella3.SetActive(true);
-        }
         if (finalscore>18)
         {
             finalscoretext.text = "Well done! You've been a good mate!!";
                                   //"\nYour final score is: " + finalscore;
             stella2.SetActive(true);
+        }
+        if (finalscore>=30)
+        {
+                    finalscoretext.text = "Amazing job! I wasn't gonna make it without your help!!";
+                                          //"\nYour final score is: " + finalscore
+        
+                    stella3.SetActive(true);
         }
         else
         {
